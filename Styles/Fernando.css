@@ -1,12 +1,13 @@
 /* STYLE FOR SECTION FOOTER */
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }   
 
 #footer {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 0.9em;
+    font-size: 1.1em;
     width: 100%;
 }   
 
@@ -45,7 +46,7 @@ body {
 }
 
 #footer .contenitore-blue .footer-blue-grid {
-    padding: 50px 250px;
+    padding: 50px 300px;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -63,6 +64,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     margin-block-start: 0;
+    width: 170px;
 }
 
 #footer .contenitore-blue .footer-blue-grid .footer-nav-vertical li {
@@ -91,4 +93,114 @@ body {
 #footer .contenitore-blue .footer-blue-grid .footer-logo-paese p a {
     color: white;
     text-decoration: none;
+}
+
+
+/* STYLE FOR HOME PAGE */
+
+/* STYLE FOR DIV PLAYSTATION-PLUS */
+
+#main .playstation-plus {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-monthly-games-banner-desktop-01-en-27may22?$1600px$);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main .playstation-plus .contenitore-grid-playstation-plus {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5% 20%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 p {
+    width: 300px;
+    
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 .bottone {
+    background-color: rgb(0 112 204);
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 12px;
+}
+
+#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 .bottone:hover {
+    outline: 2px solid rgb(0 112 204);
+    outline-offset: 2px;
+}
+
+#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 .bottone a {
+    text-decoration: none;
+    color: white;
+}
+
+#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-2 img {
+    width: 350px;
+}
+
+/* STYLE FOR DIV USCITE-MESE */
+
+#main .uscite-mese {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/this-month-on-playstation-jan-homepage-background-desktop-01-en-13dec22?$1600px$);
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-position-x: 50%;
+    background-position-y: 5%;
+}
+
+#main .uscite-mese .contenitore-uscite-mese .testo-bottone {
+    padding: 3% 17%;
+    width: 500px;
+}
+
+#main .uscite-mese .contenitore-uscite-mese .testo-bottone h2 {
+    color: white;
+    font-size: 2.3em;
+    font-weight: lighter;
+    margin: 15px 0;
+}
+
+#main .uscite-mese .contenitore-uscite-mese .testo-bottone h3 {
+    color: white;
+    opacity: .7;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-weight: lighter;
+    margin-bottom: 2em;
+}
+
+#main .uscite-mese .contenitore-uscite-mese .testo-bottone .bottone {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 12px;
+}
+
+#main .uscite-mese .contenitore-uscite-mese .testo-bottone .bottone:hover {
+    outline: 2px solid white;
+    outline-offset: 2px;
+    opacity: .7;
+}
+
+#main .uscite-mese .contenitore-uscite-mese .testo-bottone .bottone a {
+    text-decoration: none;
+    color: black;
+}
+
+#main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-imag a img {
+    width: 250px;
 }

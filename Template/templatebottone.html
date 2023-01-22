@@ -1,0 +1,40 @@
+<!-- Template di bottone generico. Usare codice dentro del body e personalizzare il link).
+Lo style per il bottone si trova dentro del head (copiarlo al vostro file di css)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        .bottone {
+            background-color: rgb(0 112 204);
+            border-radius: 20px;
+            border: none;
+            font-size: 0.9em;
+            font-weight: bold;
+            padding: 10px 12px;
+        }
+
+        .bottone:hover {
+            outline: 2px solid rgb(0 112 204);
+            outline-offset: 2px;
+        }
+
+        .bottone a {
+            text-decoration: none;
+            color: white;
+        }
+
+        
+
+    </style>
+</head>
+
+<body> 
+    <button class="bottone"><a href="#">Testo generico</a></button>
+</body>
+</html>
