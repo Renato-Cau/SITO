@@ -88,6 +88,10 @@ body {
     color: white;
 }
 
+#footer .contenitore-blue .footer-blue-grid .parraf-footer-logo-paese {
+    text-align: left;
+}
+
 #footer .contenitore-blue .footer-blue-grid .footer-logo-paese p a {
     color: white;
     text-decoration: none;
@@ -119,7 +123,8 @@ body {
 
 #main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 p {
     width: 300px;
-    
+    color: black;
+    text-align: left;
     font-size: 1em;
     line-height: 1.5em;
     margin-bottom: 30px;
@@ -137,6 +142,7 @@ body {
 #main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 .bottone:hover {
     outline: 2px solid rgb(0 112 204);
     outline-offset: 2px;
+    opacity: .7;
 }
 
 #main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 .bottone a {
@@ -227,6 +233,7 @@ body {
     font-weight: 400;
     color: white;
     line-height: 1.2em;
+    text-align: center;
 }
 
 
@@ -256,9 +263,11 @@ body {
     margin-top: .5em;
 }
 
-#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us p{
+#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .p-last-of-us {
     line-height: 1.5em;
-    margin-bottom: 1.5em; 
+    margin-bottom: 1.5em;
+    text-align: left; /* per un CSS p di Renato */
+    right: 0; /* per un CSS p di Renato */
 }
 
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .bottone {
