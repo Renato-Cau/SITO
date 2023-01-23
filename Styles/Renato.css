@@ -1,0 +1,125 @@
+/* CSS per barra nera sony*/
+
+.barra_sony {
+    background-color: black;
+    position: relative;
+    height: 34px;
+    margin: 0;
+}
+
+p {
+  color: white;
+  position: relative;
+  text-align: right;
+  top: 9px;
+  right: 9px;
+}
+
+
+
+/* Navbar contenitore */
+.navbar {
+  overflow: hidden;
+  background-color: whitesmoke;
+  font-family: Verdana;
+}
+
+/* Links dentro alla navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* CSS Dropdown contenitori */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  right: -107px;
+}
+
+/* CSS pulsanti Dropdown  */
+.dropdown .dropbtn {
+  top: 7px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  position: relative;
+}
+/* cambia il colore al testo on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: blue;
+}
+
+
+
+/*  Contenuti Dropdown (nascosti di default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links dentro i  dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* CSS Pulsante search:*/
+
+input.search[type="text"] {
+  position: relative;
+  top: 11px;
+  left: 49%;
+  width: 104px;
+  height: 23px;
+}
+
+/* CSS PULSANTE LOGIN */
+
+
+button.login {
+  background-color: rgb(6, 6, 108);
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 10px 12px;
+  position: relative;
+  left: 49%;
+  top: 12px;
+}
+
+
+/* LOGO SONY */
+
+
+img.img-fluid {
+  height: 31px;
+  top: 0px;
+  position: relative;
+}
+
+/*----------------------------------------------------------------------
