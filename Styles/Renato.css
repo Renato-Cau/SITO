@@ -1,125 +1,74 @@
+/*   CSS TASTO SEARCH */
+
+input.form-control.me-2 {
+    margin-right: .5rem!important;
+    width: 60%;
+    position: relative;
+    left: 40%;
+}
+
 /* CSS per barra nera sony*/
 
 .barra_sony {
     background-color: black;
+    color: white;
     position: relative;
     height: 34px;
     margin: 0;
 }
 
-p {
-  color: white;
-  position: relative;
-  text-align: right;
-  top: 9px;
-  right: 9px;
+p.sony_name {
+    text-align: right;
+    position: relative;
+    top: 5px;
+    right: 12px;
+    font-family: serif;
 }
 
 
 
-/* Navbar contenitore */
-.navbar {
-  overflow: hidden;
-  background-color: whitesmoke;
-  font-family: Verdana;
+/* NAVBAR CSS */
+
+.navbar-nav {
+    margin: 0;
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-navbar-color);
+    --bs-nav-link-hover-color:  rgb(0, 112, 204);
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 
-/* Links dentro alla navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+a.dropdown-item:hover {
 
-/* CSS Dropdown contenitori */
-.dropdown {
-  float: left;
-  overflow: hidden;
-  right: -107px;
-}
+    color:  rgb(0, 112, 204);
 
-/* CSS pulsanti Dropdown  */
-.dropdown .dropbtn {
-  top: 7px;
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-  position: relative;
-}
-/* cambia il colore al testo on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  color: blue;
+
 }
 
 
+/* tasto accedi */
 
-/*  Contenuti Dropdown (nascosti di default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: whitesmoke;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+button.accedi {
+    background-color: rgb(0, 112, 204);
+    border-radius: 20px;
+    height: 45%;
+    top: 16px;
+    position: absolute;
+    color: white;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 0px 12px;
 }
 
-/* Links dentro i  dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+button.accedi:hover {
+
+    text-decoration: none;
+    background-color: rgb(1, 93, 169);
 }
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* CSS Pulsante search:*/
-
-input.search[type="text"] {
-  position: relative;
-  top: 11px;
-  left: 49%;
-  width: 104px;
-  height: 23px;
-}
-
-/* CSS PULSANTE LOGIN */
-
-
-button.login {
-  background-color: rgb(6, 6, 108);
-  color: white;
-  border-radius: 20px;
-  border: none;
-  font-size: 0.9em;
-  font-weight: bold;
-  padding: 10px 12px;
-  position: relative;
-  left: 49%;
-  top: 12px;
-}
-
-
-/* LOGO SONY */
-
-
-img.img-fluid {
-  height: 31px;
-  top: 0px;
-  position: relative;
-}
-
-/*----------------------------------------------------------------------
