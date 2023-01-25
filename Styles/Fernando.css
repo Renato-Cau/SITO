@@ -44,7 +44,7 @@ body {
 }
 
 #footer .contenitore-blue .footer-blue-grid {
-    padding: 5% 18%;
+    padding: 5% 18% 5% 10%;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -55,6 +55,7 @@ body {
 
 #footer .contenitore-blue .footer-blue-grid .footer-nav-vertical {
     display: flex;
+    justify-content: space-between;
 }
 
 #footer .contenitore-blue .footer-blue-grid .footer-nav-vertical ul {
@@ -62,7 +63,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     margin-block-start: 0;
-    width: 150px;
+    /* width: 150px;  */
 }
 
 #footer .contenitore-blue .footer-blue-grid .footer-nav-vertical li {
@@ -243,14 +244,14 @@ body {
 #main .last-of-us {
     background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-hero-banner-desktop-01-ps5-en-11aug22?$2400px$);
     background-repeat: no-repeat;
-    background-size: 150%;
+    background-size: 140%;
     background-position-x: 50%;
 }
 
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us {
     width: 60%;
     color: white;
-    padding: 28% 0 15% 18%;
+    padding: 28% 0 3% 18%;
    
 }
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us img{
@@ -287,4 +288,269 @@ body {
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .bottone a {
     text-decoration: none;
     color: white;
+}
+
+
+/* STYLE FOR DIV FEEL-NEW-REAL */
+
+#main .feel-new-real {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/psvr2-register-homepage-hero-desktop-01-en-14nov22?$2400px$);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#main .feel-new-real .testo-feel {
+    width: 45%;
+    color: white;
+    padding: 12% 0 15% 10%;
+}
+
+#main .feel-new-real .testo-feel h3 {
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin-bottom: 1em;
+}
+
+#main .feel-new-real .testo-feel .bottone {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 12px;
+    margin-top: 1em;
+}
+
+#main .feel-new-real .testo-feel .bottone:hover {
+    outline: 2px solid  white;
+    outline-offset: 2px;
+    opacity: .7;
+}
+
+#main .feel-new-real .testo-feel .bottone a {
+    text-decoration: none;
+    color:black;
+}
+
+
+/* STYLE FOR DIV ESPLORA-PS4 */
+
+#main .esplora-ps4 .titolo-ps4 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: black;
+}
+
+#main .esplora-ps4 .titolo-ps4 h2 {
+    font-weight: lighter;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+#main .esplora-ps4 .titolo-ps4 h3 {
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+#main .contenit-ps4-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 500px;
+}
+
+#main .contenit-ps4-grid .item-grid-ps4 img {
+    height: 25%;
+}
+
+#main .contenit-ps4-grid .item-grid-ps4 h2 {
+    font-weight: normal;
+    font-size: 2.3em;
+    margin-bottom: .7em;
+}
+
+#main .contenit-ps4-grid .item-grid-ps4 p {
+    font-size: 1.15em;
+    color: rgb(77, 77, 77);
+    margin-bottom: 1em;
+}
+
+#main .contenit-ps4-grid .item-grid-ps4 .bottone {
+    background-color: rgb(0 112 204);
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 12px;
+}
+
+#main .contenit-ps4-grid .item-grid-ps4 .bottone:hover {
+    outline: 2px solid rgb(0 112 204);
+    outline-offset: 2px;
+    opacity: .7;
+}
+
+#main .contenit-ps4-grid .item-grid-ps4 .bottone a {
+    text-decoration: none;
+    color: white;
+}
+
+/* STYLE FOR DIV PS-STORE */
+#main .ps-store .contenitore-grid-ps-store {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 3% 10%;
+    justify-content: space-between;
+    column-gap: 40px;
+    align-items: center;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store h2 {
+    font-weight: normal;
+    font-size: 2.5em;
+    margin-bottom: .7em;
+    margin-top: .5em;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store p {
+    font-size: 1.15em;
+    color: rgb(77, 77, 77);
+    margin-bottom: 1.5em;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store .bottone {
+    background-color: rgb(214 61 0);
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 12px;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store .bottone:hover {
+    outline: 2px solid  rgb(214 61 0);
+    outline-offset: 2px;
+    opacity: .7;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store .bottone a {
+    text-decoration: none;
+    color: white;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item2-ps-store img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* STYLE FOR DIV TIENDA */
+
+#main .tienda {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-evergreen-background-block-desktop-01-en-27may22?$2400px$);
+    background-repeat: no-repeat;
+    background-size: 125%;
+    padding: 2% 10%;
+    background-position-x: 30%;
+}
+
+#main .tienda .testo-tienda {
+    width: 45%;
+}
+
+#main .tienda .testo-tienda img {
+    height: 100px;
+}
+
+#main .tienda .testo-tienda h2 {
+    font-weight: normal;
+    font-size: 2.5em;
+    margin-bottom: .7em;
+    margin-top: .8em;
+    color: white;
+}
+
+#main .tienda .testo-tienda p {
+    font-size: 1.15em;
+    color: rgb(77, 77, 77);
+    margin-bottom: 1.5em;
+}
+
+#main .tienda .contenitore-grid-tienda {
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    padding: 3% 0;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+}
+
+#main .tienda .contenitore-grid-tienda .grid-item-tienda {
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+}
+
+#main .tienda .contenitore-grid-tienda .grid-item-tienda img {
+    width: 250px;
+    padding: 25px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main .tienda .contenitore-grid-tienda .grid-item-tienda p {
+    font-size: 1.15em;
+    margin-bottom: 3.5em;
+    text-align: center;
+}
+
+#main .tienda .contenitore-grid-tienda .grid-item-tienda .bottone {
+    background-color: rgb(214 61 0);
+    border-radius: 20px;
+    border: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 12px;
+    margin-bottom: 30px;
+}
+
+#main .tienda .contenitore-grid-tienda .grid-item-tienda .bottone:hover {
+    outline: 2px solid  rgb(214 61 0);
+    outline-offset: 2px;
+    opacity: .8;
+}
+
+#main .tienda .contenitore-grid-tienda .grid-item-tienda .bottone a {
+    text-decoration: none;
+    color: white;
+}
+
+#main .tienda .bottone-tienda {
+    text-align: center;
+}
+
+#main .tienda .bottone-tienda .bottone {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 12px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#main .tienda .bottone-tienda .bottone:hover {
+    outline: 2px solid  white;
+    outline-offset: 2px;
+    opacity: .8;
+}
+
+#main .tienda .bottone-tienda .bottone a {
+    text-decoration: none;
+    color: black;
 }
