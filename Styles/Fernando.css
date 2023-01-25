@@ -117,12 +117,12 @@ body {
 }
 
 #main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 img {
-    width: 200px;
+    width: 70%;
     margin-bottom: 10px;
 }
 
 #main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 p {
-    width: 300px;
+    width: 400px;
     color: black;
     text-align: left;
     font-size: 1em;
@@ -151,7 +151,7 @@ body {
 }
 
 #main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-2 img {
-    width: 350px;
+    width: 500px;
 }
 
 /* STYLE FOR DIV USCITE-MESE */
@@ -166,7 +166,7 @@ body {
 
 #main .uscite-mese .contenitore-uscite-mese .testo-bottone {
     padding: 2% 17%;
-    width: 500px;
+    width: 70%;
 }
 
 #main .uscite-mese .contenitore-uscite-mese .testo-bottone h2 {
@@ -234,6 +234,7 @@ body {
     color: white;
     line-height: 1.2em;
     text-align: center;
+    padding-top: 25px;
 }
 
 
@@ -247,9 +248,9 @@ body {
 }
 
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us {
-    width: 30%;
+    width: 60%;
     color: white;
-    padding: 30% 0 15% 18%;
+    padding: 28% 0 15% 18%;
    
 }
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us img{
@@ -266,8 +267,6 @@ body {
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .p-last-of-us {
     line-height: 1.5em;
     margin-bottom: 1.5em;
-    text-align: left; /* per un CSS p di Renato */
-    right: 0; /* per un CSS p di Renato */
 }
 
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .bottone {

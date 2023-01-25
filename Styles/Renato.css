@@ -13,21 +13,30 @@ input.form-control.me-2 {
     background-color: black;
     color: white;
     position: relative;
-    height: 34px;
-    margin: 0;
+    
+    
 }
 
 p.sony_name {
     text-align: right;
     position: relative;
-    top: 5px;
     right: 12px;
     font-family: serif;
+    margin-bottom: 0;
+    padding: 5px;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 
 
 /* NAVBAR CSS */
+
+.logo-nav-bar a {
+    font-size: 40px;
+    margin: 0 25px 0 15px;
+    color:rgb(0, 112, 204);
+}
 
 .navbar-nav {
     margin: 0;
