@@ -11,6 +11,7 @@ body {
 
 #footer .contenitore-grigio {
     background-color: rgb(245, 247, 250);
+    margin-top: 60px;
 }
 
 #footer .contenitore-grigio h3 {
@@ -209,7 +210,8 @@ body {
 
 #main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 32% 32% 32%;
+    width: 100%;
     padding: 3% 16%;
     justify-content: space-between;
 }
@@ -219,7 +221,7 @@ body {
 }
 
 #main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image a img {
-    width: 250px;
+    width: 100%;
     box-shadow: 2px 3px 3px 0 black;
     border-radius: 15px;
     transition: 0.3s;
@@ -355,16 +357,16 @@ body {
 
 #main .contenit-ps4-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
-    width: 80%;
+    grid-template-columns: 32% 32% 32%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    height: 500px;
+    justify-content: space-between;
 }
 
 #main .contenit-ps4-grid .item-grid-ps4 img {
-    height: 25%;
+    width: 90%;
 }
 
 #main .contenit-ps4-grid .item-grid-ps4 h2 {
@@ -386,6 +388,7 @@ body {
     font-size: 0.9em;
     font-weight: bold;
     padding: 10px 12px;
+    margin-bottom: 40px;
 }
 
 #main .contenit-ps4-grid .item-grid-ps4 .bottone:hover {
@@ -403,7 +406,7 @@ body {
 #main .ps-store .contenitore-grid-ps-store {
     display: grid;
     grid-template-columns: 30% 70%;
-    padding: 3% 10%;
+    padding: 3% 15%;
     justify-content: space-between;
     column-gap: 40px;
     align-items: center;
@@ -411,13 +414,13 @@ body {
 
 #main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store h2 {
     font-weight: normal;
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-bottom: .7em;
     margin-top: .5em;
 }
 
 #main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store p {
-    font-size: 1.15em;
+    font-size: 1em;
     color: rgb(77, 77, 77);
     margin-bottom: 1.5em;
 }
@@ -442,8 +445,12 @@ body {
     color: white;
 }
 
-#main .ps-store .contenitore-grid-ps-store .grid-item2-ps-store img {
+#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store img {
     width: 100%;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item2-ps-store img {
+    width: 90%;
     border-radius: 30px;
 }
 
@@ -452,9 +459,9 @@ body {
 #main .tienda {
     background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-evergreen-background-block-desktop-01-en-27may22?$2400px$);
     background-repeat: no-repeat;
-    background-size: 125%;
+    background-size: 150%;
     padding: 2% 10%;
-    background-position-x: 30%;
+    background-position-x: 50%;
 }
 
 #main .tienda .testo-tienda {
@@ -462,30 +469,31 @@ body {
 }
 
 #main .tienda .testo-tienda img {
-    height: 100px;
+    height: 70px;
 }
 
 #main .tienda .testo-tienda h2 {
     font-weight: normal;
-    font-size: 2.5em;
+    font-size: 2.3em;
     margin-bottom: .7em;
     margin-top: .8em;
     color: white;
 }
 
 #main .tienda .testo-tienda p {
-    font-size: 1.15em;
+    font-size: 1em;
     color: rgb(77, 77, 77);
     margin-bottom: 1.5em;
 }
 
 #main .tienda .contenitore-grid-tienda {
     display: grid;
-    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-columns: 23% 23% 23% 23%;
+    width: 90%;
     padding: 3% 0;
-    justify-content: center;
-    column-gap: 30px;
-    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #main .tienda .contenitore-grid-tienda .grid-item-tienda {
@@ -496,15 +504,15 @@ body {
 }
 
 #main .tienda .contenitore-grid-tienda .grid-item-tienda img {
-    width: 250px;
+    width: 60%;
     padding: 25px 0;
     margin-left: auto;
     margin-right: auto;
 }
 
 #main .tienda .contenitore-grid-tienda .grid-item-tienda p {
-    font-size: 1.15em;
-    margin-bottom: 3.5em;
+    font-size: 1.3em;
+    margin-bottom: 2.5em;
     text-align: center;
 }
 
@@ -553,4 +561,80 @@ body {
 #main .tienda .bottone-tienda .bottone a {
     text-decoration: none;
     color: black;
+}
+
+/* STYLE FOR DIV NOVITA-BLOG-CARROSELLO */
+
+#main .novita-blog-carrosello .carousel-inner, #main .novita-blog-carrosello .carousel-indicators  {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#main .novita-blog-carrosello .titolo-blog {
+    text-align: center;
+    font-size: 3em;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#main .novita-blog-carrosello .carousel-inner .cont-item {
+    width: 100%;
+    background-image: linear-gradient( rgb(236, 235, 235), white);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#main .novita-blog-carrosello .carousel-inner .cont-item img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(61, 61, 61);
+}
+
+#main .novita-blog-carrosello .carousel-inner .cont-item a {
+    text-decoration: none;
+}
+
+#main .novita-blog-carrosello .carousel-inner .cont-item h4 {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#main .novita-blog-carrosello  .carousel-inner .cont-item p {
+    color: rgb(85, 85, 85);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#main .novita-blog-carrosello .carousel-inner .cont-item .pie {
+    margin-bottom: 60px;
+}
+
+#main .novita-blog-carrosello  .carousel-inner .cont-item .pie > img {
+    float: left;
+    border-radius: 0;
+    height: 15%;
+    width: 15%;
+    margin-right: 10px;
+}
+
+#main .novita-blog-carrosello .carousel-inner .cont-item .pie > p {
+    color: black;
+    margin: 0.2em;
+    font-size: 0.8em;
+    
+}
+
+#main .novita-blog-carrosello .carousel-indicators [data-bs-target] {
+    background-color: #00439c;
+}
+
+#main .novita-blog-carrosello .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #00439c;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
 }
