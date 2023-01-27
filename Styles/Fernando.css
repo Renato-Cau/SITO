@@ -511,7 +511,7 @@ body {
 }
 
 #main .tienda .contenitore-grid-tienda .grid-item-tienda p {
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-bottom: 2.5em;
     text-align: center;
 }
@@ -638,3 +638,87 @@ body {
     height: 40px;
     
 }
+
+
+/* STYLE FOR DIV CARROSELLO-AUTOPLAY */
+
+#main .carrosello-autoplay .carousel-inner {
+    padding-bottom: 170px;
+}
+
+#main .carrosello-autoplay .carousel-indicators [data-bs-target] {
+    max-width: 180px;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+}
+
+#main .carrosello-autoplay .carousel-indicators [data-bs-target]:hover {
+    opacity: 1;
+}
+
+#main .carrosello-autoplay .carousel-indicators img:hover {
+    transform: translate(0, -10px);
+    box-shadow: 0 10px 5px rgb(189, 187, 187);
+}
+
+#main .carrosello-autoplay .carousel-indicators .active img {
+    outline: 3px solid rgb(0, 128, 255);
+    outline-offset: 4px;
+}
+
+#main .carrosello-autoplay .carousel-indicators [data-bs-target] img {
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#main .carrosello-autoplay .carousel-inner .div-image1 {
+    position: absolute;
+    width: 35%;
+    top: 30%;
+    left: 8%;
+}
+
+#main .carrosello-autoplay .carousel-inner .div-image1 img {
+    width: 40%;
+}
+
+#main .carrosello-autoplay .carousel-inner .div-image1 h2 {
+    color: white;
+    font-size: 3em;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#main .carrosello-autoplay .carousel-inner .div-image1 p {
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 40px;
+}
+
+#main .carrosello-autoplay .carousel-inner .div-image1 .bottone {
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 12px;
+}
+
+#main .carrosello-autoplay .carousel-inner .div-image1 .bottone:hover {
+    outline: 2px solid white;
+    outline-offset: 2px;
+    opacity: .8;
+}
+
+#main .carrosello-autoplay .carousel-inner .div-image1 .bottone a {
+    text-decoration: none;
+    color:black;
+}
+
+/* manca colore arancione button The last Part of us */
+/* size img Monster Hunter Rise */
+/* manca colore blue button & color testo nero La Casa dei Player */
+/* size img Dual Sense Controller */
+/* size img Dual DeadSpace */
