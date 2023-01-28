@@ -367,6 +367,7 @@ body {
 
 #main .contenit-ps4-grid .item-grid-ps4 img {
     width: 90%;
+    min-height: 200px;
 }
 
 #main .contenit-ps4-grid .item-grid-ps4 h2 {
@@ -514,6 +515,7 @@ body {
     font-size: 1.1em;
     margin-bottom: 2.5em;
     text-align: center;
+    padding: 0 10px;
 }
 
 #main .tienda .contenitore-grid-tienda .grid-item-tienda .bottone {
@@ -675,7 +677,7 @@ body {
 #main .carrosello-autoplay .carousel-inner .div-image1 {
     position: absolute;
     width: 35%;
-    top: 30%;
+    top: 25%;
     left: 8%;
 }
 
@@ -722,3 +724,84 @@ body {
 /* manca colore blue button & color testo nero La Casa dei Player */
 /* size img Dual Sense Controller */
 /* size img Dual DeadSpace */
+
+
+/* STYLE FOR DIV CARROSELLO-SENZA-AUTOPLAY */
+
+#main .carrosello-senza-autoplay .carousel-inner {
+    padding-bottom: 250px;
+}
+
+#main .carrosello-senza-autoplay .carousel-indicators {
+    margin-left: 10%;
+}
+
+#main .carrosello-senza-autoplay .carousel-indicators [data-bs-target] {
+    max-width: 300px;
+    width: 220px;
+    height: 180px;
+}
+
+#main .carrosello-senza-autoplay .carousel-indicators [data-bs-target]:hover {
+    opacity: 1;
+}
+
+#main .carrosello-senza-autoplay .carousel-indicators .active {
+    border: 3px solid rgb(0, 128, 255);
+    border-radius: 20px;
+}
+
+#main .carrosello-senza-autoplay .carousel-indicators .button-ind {
+    padding: 10px 20px;
+}
+
+#main .carrosello-senza-autoplay .carousel-indicators .button-ind img {
+    margin-bottom: 10px;
+    max-height: 100px;
+}
+
+#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 80%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 h3 {
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 p {
+    font-weight: lighter;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 img {
+    width: 80%;
+}
+
+#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 .bottone {
+    background-color: rgb(0 112 204);
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 12px;
+}
+
+#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 .bottone:hover {
+    outline: 2px solid rgb(0 112 204);
+    outline-offset: 2px;
+    opacity: .8;
+}
+
+#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 .bottone a {
+    text-decoration: none;
+    color:white;
+}
