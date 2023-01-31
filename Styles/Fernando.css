@@ -132,26 +132,6 @@ body {
     margin-bottom: 30px;
 }
 
-#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 .bottone {
-    background-color: rgb(0 112 204);
-    border-radius: 20px;
-    border: none;
-    font-size: 0.9em;
-    font-weight: bold;
-    padding: 10px 12px;
-}
-
-#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 .bottone:hover {
-    outline: 2px solid rgb(0 112 204);
-    outline-offset: 2px;
-    opacity: .7;
-}
-
-#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 .bottone a {
-    text-decoration: none;
-    color: white;
-}
-
 #main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-2 img {
     width: 500px;
 }
@@ -186,27 +166,6 @@ body {
     font-weight: lighter;
     margin-bottom: 2em;
 }
-
-#main .uscite-mese .contenitore-uscite-mese .testo-bottone .bottone {
-    background-color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 0.9em;
-    font-weight: bold;
-    padding: 10px 12px;
-}
-
-#main .uscite-mese .contenitore-uscite-mese .testo-bottone .bottone:hover {
-    outline: 2px solid white;
-    outline-offset: 2px;
-    opacity: .7;
-}
-
-#main .uscite-mese .contenitore-uscite-mese .testo-bottone .bottone a {
-    text-decoration: none;
-    color: black;
-}
-
 
 #main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image {
     display: grid;
@@ -253,7 +212,7 @@ body {
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us {
     width: 60%;
     color: white;
-    padding: 28% 0 3% 18%;
+    padding: 24% 0 3% 18%;
    
 }
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us img{
@@ -270,26 +229,6 @@ body {
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .p-last-of-us {
     line-height: 1.5em;
     margin-bottom: 1.5em;
-}
-
-#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .bottone {
-    background-color: rgb(214 61 0);
-    border-radius: 20px;
-    border: none;
-    font-size: 0.9em;
-    font-weight: bold;
-    padding: 10px 12px;
-}
-
-#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .bottone:hover {
-    outline: 2px solid  rgb(214 61 0);
-    outline-offset: 2px;
-    opacity: .7;
-}
-
-#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .bottone a {
-    text-decoration: none;
-    color: white;
 }
 
 
@@ -313,27 +252,6 @@ body {
     margin-bottom: 1em;
 }
 
-#main .feel-new-real .testo-feel .bottone {
-    background-color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 1em;
-    font-weight: bold;
-    padding: 10px 12px;
-    margin-top: 1em;
-}
-
-#main .feel-new-real .testo-feel .bottone:hover {
-    outline: 2px solid  white;
-    outline-offset: 2px;
-    opacity: .7;
-}
-
-#main .feel-new-real .testo-feel .bottone a {
-    text-decoration: none;
-    color:black;
-}
-
 
 /* STYLE FOR DIV ESPLORA-PS4 */
 
@@ -348,6 +266,7 @@ body {
     font-weight: lighter;
     font-size: 2.5em;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 #main .esplora-ps4 .titolo-ps4 h3 {
@@ -382,26 +301,6 @@ body {
     margin-bottom: 1em;
 }
 
-#main .contenit-ps4-grid .item-grid-ps4 .bottone {
-    background-color: rgb(0 112 204);
-    border-radius: 20px;
-    border: none;
-    font-size: 0.9em;
-    font-weight: bold;
-    padding: 10px 12px;
-    margin-bottom: 40px;
-}
-
-#main .contenit-ps4-grid .item-grid-ps4 .bottone:hover {
-    outline: 2px solid rgb(0 112 204);
-    outline-offset: 2px;
-    opacity: .7;
-}
-
-#main .contenit-ps4-grid .item-grid-ps4 .bottone a {
-    text-decoration: none;
-    color: white;
-}
 
 /* STYLE FOR DIV PS-STORE */
 #main .ps-store .contenitore-grid-ps-store {
@@ -424,26 +323,6 @@ body {
     font-size: 1em;
     color: rgb(77, 77, 77);
     margin-bottom: 1.5em;
-}
-
-#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store .bottone {
-    background-color: rgb(214 61 0);
-    border-radius: 20px;
-    border: none;
-    font-size: 0.9em;
-    font-weight: bold;
-    padding: 10px 12px;
-}
-
-#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store .bottone:hover {
-    outline: 2px solid  rgb(214 61 0);
-    outline-offset: 2px;
-    opacity: .7;
-}
-
-#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store .bottone a {
-    text-decoration: none;
-    color: white;
 }
 
 #main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store img {
@@ -518,52 +397,10 @@ body {
     padding: 0 10px;
 }
 
-#main .tienda .contenitore-grid-tienda .grid-item-tienda .bottone {
-    background-color: rgb(214 61 0);
-    border-radius: 20px;
-    border: none;
-    font-size: 1.1em;
-    font-weight: bold;
-    padding: 10px 12px;
-    margin-bottom: 30px;
-}
-
-#main .tienda .contenitore-grid-tienda .grid-item-tienda .bottone:hover {
-    outline: 2px solid  rgb(214 61 0);
-    outline-offset: 2px;
-    opacity: .8;
-}
-
-#main .tienda .contenitore-grid-tienda .grid-item-tienda .bottone a {
-    text-decoration: none;
-    color: white;
-}
-
 #main .tienda .bottone-tienda {
     text-align: center;
 }
 
-#main .tienda .bottone-tienda .bottone {
-    background-color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 1.1em;
-    font-weight: bold;
-    padding: 10px 12px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-#main .tienda .bottone-tienda .bottone:hover {
-    outline: 2px solid  white;
-    outline-offset: 2px;
-    opacity: .8;
-}
-
-#main .tienda .bottone-tienda .bottone a {
-    text-decoration: none;
-    color: black;
-}
 
 /* STYLE FOR DIV NOVITA-BLOG-CARROSELLO */
 
@@ -642,7 +479,7 @@ body {
 }
 
 
-/* STYLE FOR DIV CARROSELLO-AUTOPLAY */
+/* STYLE FOR DIV CARROSELLO-AUTOPLAY  */
 
 #main .carrosello-autoplay .carousel-inner {
     padding-bottom: 170px;
@@ -687,43 +524,17 @@ body {
 
 #main .carrosello-autoplay .carousel-inner .div-image1 h2 {
     color: white;
-    font-size: 3em;
+    font-size: 2.8em;
     font-weight: lighter;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #main .carrosello-autoplay .carousel-inner .div-image1 p {
     color: white;
     font-size: 1.3em;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
-
-#main .carrosello-autoplay .carousel-inner .div-image1 .bottone {
-    background-color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 10px 12px;
-}
-
-#main .carrosello-autoplay .carousel-inner .div-image1 .bottone:hover {
-    outline: 2px solid white;
-    outline-offset: 2px;
-    opacity: .8;
-}
-
-#main .carrosello-autoplay .carousel-inner .div-image1 .bottone a {
-    text-decoration: none;
-    color:black;
-}
-
-/* manca colore arancione button The last Part of us */
-/* size img Monster Hunter Rise */
-/* manca colore blue button & color testo nero La Casa dei Player */
-/* size img Dual Sense Controller */
-/* size img Dual DeadSpace */
 
 
 /* STYLE FOR DIV CARROSELLO-SENZA-AUTOPLAY */
@@ -786,22 +597,119 @@ body {
     width: 80%;
 }
 
-#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 .bottone {
-    background-color: rgb(0 112 204);
+
+/* STYLE FOR BOTTONI */
+.bottone {
     border-radius: 20px;
     border: none;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-weight: bold;
     padding: 10px 12px;
 }
 
-#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 .bottone:hover {
-    outline: 2px solid rgb(0 112 204);
+.bottone:hover {
     outline-offset: 2px;
-    opacity: .8;
+    opacity: .7;
 }
 
-#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 .bottone a {
+.bottone a {
     text-decoration: none;
-    color:white;
+    color: white;
+}
+
+.bottone-blue {
+    background-color: rgb(0 112 204);
+}
+
+.bottone-blue:hover {
+    outline: 2px solid rgb(0 112 204);  
+}
+
+.bottone-white {
+    background-color: white;
+}
+
+.bottone-white:hover {
+    outline: 2px solid white;
+}
+
+.bottone-white a {
+    color:black;
+}
+
+.bottone-orange {
+    background-color: rgb(214 61 0);
+    margin-bottom: 10px;
+}
+
+.bottone-orange:hover {
+    outline: 2px solid  rgb(214 61 0);
+}
+
+
+/* STYLE FOR DIV CARROSELLO-ESTATICO-PROPRIO */
+
+#main .carrosello-estatico-proprio {
+    background-color: black;
+    padding: 3% 0 3% 16%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main .carrosello-estatico-proprio .contenitore-carrosello-proprio {
+    width: 80%;
+}
+
+#main .carrosello-estatico-proprio .grid-testo-frecce {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 80% 20%;
+    margin-top: 10px;
+}
+
+#main .carrosello-estatico-proprio .grid-testo-frecce .arrow {
+    font-size: 2.5em;
+    text-align: right;
+}
+
+#main .carrosello-estatico-proprio .grid-testo-frecce .arrow i:hover {
+    opacity: 0.7;
+    border-radius: 50%;
+    outline-offset: 2px;
+    outline: 2px solid white;
+}
+
+#main .carrosello-estatico-proprio .grid-cotenitore-image-carrosello {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    column-gap: 2%;
+    margin-top: 35px;
+}
+
+#main .carrosello-estatico-proprio .grid-cotenitore-image-carrosello img {
+    width: 100%;
+    min-height: 189px;
+    border-radius: 10px;
+}
+
+#main .carrosello-estatico-proprio .opaco {
+    margin-left: 30px;
+    opacity: 0.5;
+    margin-top: 10px;
+    width: 15%;
+}
+
+#main .carrosello-estatico-proprio .opaco .item-opaco {
+    width: 100%;
+    max-width: 187px;
+}
+
+#main .carrosello-estatico-proprio .opaco img {
+    width: 100%;
+    min-height: 187px;
+    border-radius: 10px;
+    opacity: 0.5;
+    margin-top: 35px;
 }
