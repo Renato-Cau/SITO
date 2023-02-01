@@ -73,6 +73,53 @@ button.accedi {
 
 button.accedi:hover {
 
-    text-decoration: none;
-    background-color: rgb(1, 93, 169);
+    background-color: rgb(1, 53, 95);
+    
 }
+
+
+/* CSS primo blocco */
+
+section.first_block {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps4-games-page-banner-desktop-01-en-13dec21?$4000px$);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 12%;
+}
+.text_block1 {
+    background-color: black;
+    opacity: 80%;
+    width: 644px;
+    height: 343px;
+}
+
+.div.blocco_testo div h1 {
+    font-size: 2.5rem;
+    padding: 4%;
+}
+
+div.ps4_logo img {
+    width: 383px;
+    height: 78px;
+}
+
+.div.msg1 {
+    text-align: center;
+    padding: 10%;
+    color: white;
+}
+
+.text_block1 {
+    padding: 4%;
+    color: white;
+    background-color: black;
+    opacity: 80%;
+    width: 644px;
+    height: 343px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* CSS secondo blocco */
