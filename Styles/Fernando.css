@@ -1,491 +1,57 @@
-/* STYLE FOR SECTION FOOTER */
+/* --------- STYLE GENERALE ED ELEMENTI COMUNI(bottoni) --------- */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-}   
+}
 
-#footer {
-    color: white;
+/* STYLE FOR BOTTONI */
+.bottone {
+    border-radius: 20px;
+    border: none;
     font-size: 0.9em;
-}   
-
-#footer .contenitore-grigio {
-    background-color: rgb(245, 247, 250);
-    margin-top: 60px;
+    font-weight: bold;
+    padding: 10px 12px;
 }
 
-#footer .contenitore-grigio h3 {
-    color: rgb(75, 74, 74);
-    font-size: 2em;
-    font-weight:normal;
-    text-align: center;
-    padding-top: 40px;
+.bottone:hover {
+    outline-offset: 2px;
+    opacity: .7;
 }
 
-#footer .contenitore-grigio .social-link {
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px 0 100px 0;
-    
-}
-
-#footer .contenitore-grigio .social-link a {
-    text-decoration: none;
-    color: rgb(75, 74, 74);
-}
-
-#footer .contenitore-grigio .social-link a i {
-    font-size: 75px;
-}
-#footer .contenitore-blue {
-    background-color: #00439c;
-}
-
-#footer .contenitore-blue .footer-blue-grid {
-    padding: 5% 18% 5% 10%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
- 
-#footer .contenitore-blue .footer-blue-grid .footer-logo-paese img {
-    height: 70px;
-}
-
-#footer .contenitore-blue .footer-blue-grid .footer-nav-vertical {
-    display: flex;
-    justify-content: space-between;
-}
-
-#footer .contenitore-blue .footer-blue-grid .footer-nav-vertical ul {
-    padding-inline-start: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-block-start: 0;
-    /* width: 150px;  */
-}
-
-#footer .contenitore-blue .footer-blue-grid .footer-nav-vertical li {
-    list-style: none;
-    padding-bottom: 10px;    
-}
-
-#footer .contenitore-blue .footer-blue-grid .footer-nav-vertical li a {
+.bottone a {
     text-decoration: none;
     color: white;
-    line-height: 1.5em;
 }
 
-#footer .contenitore-blue .footer-blue-grid .footer-legal img {
-    height: 50px;
-}
+.bottone-blue { background-color: rgb(0 112 204); }
 
-#footer .contenitore-blue .footer-blue-grid .footer-legal p {
-    line-height: 1.5em;
-}
+.bottone-blue:hover { outline: 2px solid rgb(0 112 204); }
 
-#footer .contenitore-blue .footer-blue-grid .footer-legal p a {
-    color: white;
-}
+.bottone-white { background-color: white; }
 
-#footer .contenitore-blue .footer-blue-grid .parraf-footer-logo-paese {
-    text-align: left;
-}
+.bottone-white:hover { outline: 2px solid white; }
 
-#footer .contenitore-blue .footer-blue-grid .footer-logo-paese p a {
-    color: white;
-    text-decoration: none;
-}
+.bottone-white a { color: black; }
 
-
-/* STYLE FOR HOME PAGE */
-
-/* STYLE FOR DIV PLAYSTATION-PLUS */
-
-#main .playstation-plus {
-    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-monthly-games-banner-desktop-01-en-27may22?$1600px$);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#main .playstation-plus .contenitore-grid-playstation-plus {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 5% 20%;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 img {
-    width: 70%;
+.bottone-orange {
+    background-color: rgb(214 61 0);
     margin-bottom: 10px;
 }
 
-#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 p {
-    width: 400px;
-    color: black;
-    text-align: left;
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-bottom: 30px;
-}
-
-#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-2 img {
-    width: 500px;
-}
-
-/* STYLE FOR DIV USCITE-MESE */
-
-#main .uscite-mese {
-    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/this-month-on-playstation-jan-homepage-background-desktop-01-en-13dec22?$4000px$);
-    background-repeat: no-repeat;
-    background-size: 125%;
-    background-position-x: 50%;
-    background-color: #26254f;
-}
-
-#main .uscite-mese .contenitore-uscite-mese .testo-bottone {
-    padding: 2% 17%;
-    width: 70%;
-}
-
-#main .uscite-mese .contenitore-uscite-mese .testo-bottone h2 {
-    color: white;
-    font-size: 2.3em;
-    font-weight: lighter;
-    margin: 15px 0;
-}
-
-#main .uscite-mese .contenitore-uscite-mese .testo-bottone h3 {
-    color: white;
-    opacity: .7;
-    font-size: 1.3em;
-    line-height: 1.5em;
-    font-weight: lighter;
-    margin-bottom: 2em;
-}
-
-#main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image {
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    width: 100%;
-    padding: 3% 16%;
-    justify-content: space-between;
-}
-
-#main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image div {
-    text-align: center;
-}
-
-#main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image a img {
-    width: 100%;
-    box-shadow: 2px 3px 3px 0 black;
-    border-radius: 15px;
-    transition: 0.3s;
-}
-
-#main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image a img:hover {
-    transform: scale(1.03);
-}
-
-#main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image p {
-    font-size: 1.6em;
-    font-weight: 400;
-    color: white;
-    line-height: 1.2em;
-    text-align: center;
-    padding-top: 25px;
-}
+.bottone-orange:hover { outline: 2px solid rgb(214 61 0); }
 
 
-/* STYLE FOR DIV LAST-OF-US */
-
-#main .last-of-us {
-    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-hero-banner-desktop-01-ps5-en-11aug22?$2400px$);
-    background-repeat: no-repeat;
-    background-size: 140%;
-    background-position-x: 50%;
-}
-
-#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us {
-    width: 60%;
-    color: white;
-    padding: 24% 0 3% 18%;
-   
-}
-#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us img{
-    width: 60%;
-}
-
-#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us h3{
-    font-size: 2.3em;
-    font-weight: normal;
-    margin-bottom: .5em;
-    margin-top: .5em;
-}
-
-#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .p-last-of-us {
-    line-height: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-
-/* STYLE FOR DIV FEEL-NEW-REAL */
-
-#main .feel-new-real {
-    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/psvr2-register-homepage-hero-desktop-01-en-14nov22?$2400px$);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#main .feel-new-real .testo-feel {
-    width: 45%;
-    color: white;
-    padding: 12% 0 15% 10%;
-}
-
-#main .feel-new-real .testo-feel h3 {
-    font-size: 2.5em;
-    font-weight: lighter;
-    margin-bottom: 1em;
-}
-
-
-/* STYLE FOR DIV ESPLORA-PS4 */
-
-#main .esplora-ps4 .titolo-ps4 {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    color: black;
-}
-
-#main .esplora-ps4 .titolo-ps4 h2 {
-    font-weight: lighter;
-    font-size: 2.5em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-
-#main .esplora-ps4 .titolo-ps4 h3 {
-    font-weight: normal;
-    font-size: 1.5em;
-}
-
-#main .contenit-ps4-grid {
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    justify-content: space-between;
-}
-
-#main .contenit-ps4-grid .item-grid-ps4 img {
-    width: 90%;
-    min-height: 200px;
-}
-
-#main .contenit-ps4-grid .item-grid-ps4 h2 {
-    font-weight: normal;
-    font-size: 2.3em;
-    margin-bottom: .7em;
-}
-
-#main .contenit-ps4-grid .item-grid-ps4 p {
-    font-size: 1.15em;
-    color: rgb(77, 77, 77);
-    margin-bottom: 1em;
-}
-
-
-/* STYLE FOR DIV PS-STORE */
-#main .ps-store .contenitore-grid-ps-store {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    padding: 3% 15%;
-    justify-content: space-between;
-    column-gap: 40px;
-    align-items: center;
-}
-
-#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store h2 {
-    font-weight: normal;
-    font-size: 2.2em;
-    margin-bottom: .7em;
-    margin-top: .5em;
-}
-
-#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store p {
-    font-size: 1em;
-    color: rgb(77, 77, 77);
-    margin-bottom: 1.5em;
-}
-
-#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store img {
-    width: 100%;
-}
-
-#main .ps-store .contenitore-grid-ps-store .grid-item2-ps-store img {
-    width: 90%;
-    border-radius: 30px;
-}
-
-/* STYLE FOR DIV TIENDA */
-
-#main .tienda {
-    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-evergreen-background-block-desktop-01-en-27may22?$2400px$);
-    background-repeat: no-repeat;
-    background-size: 150%;
-    padding: 2% 10%;
-    background-position-x: 50%;
-}
-
-#main .tienda .testo-tienda {
-    width: 45%;
-}
-
-#main .tienda .testo-tienda img {
-    height: 70px;
-}
-
-#main .tienda .testo-tienda h2 {
-    font-weight: normal;
-    font-size: 2.3em;
-    margin-bottom: .7em;
-    margin-top: .8em;
-    color: white;
-}
-
-#main .tienda .testo-tienda p {
-    font-size: 1em;
-    color: rgb(77, 77, 77);
-    margin-bottom: 1.5em;
-}
-
-#main .tienda .contenitore-grid-tienda {
-    display: grid;
-    grid-template-columns: 23% 23% 23% 23%;
-    width: 90%;
-    padding: 3% 0;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#main .tienda .contenitore-grid-tienda .grid-item-tienda {
-    background-color: black;
-    color: white;
-    opacity: 0.6;
-    text-align: center;
-}
-
-#main .tienda .contenitore-grid-tienda .grid-item-tienda img {
-    width: 60%;
-    padding: 25px 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#main .tienda .contenitore-grid-tienda .grid-item-tienda p {
-    font-size: 1.1em;
-    margin-bottom: 2.5em;
-    text-align: center;
-    padding: 0 10px;
-}
-
-#main .tienda .bottone-tienda {
-    text-align: center;
-}
-
-
-/* STYLE FOR DIV NOVITA-BLOG-CARROSELLO */
-
-#main .novita-blog-carrosello .carousel-inner, #main .novita-blog-carrosello .carousel-indicators  {
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;    
-}
-
-#main .novita-blog-carrosello .titolo-blog {
-    text-align: center;
-    font-size: 3em;
-    font-weight: lighter;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-#main .novita-blog-carrosello .carousel-inner .cont-item {
-    width: 100%;
-    background-image: linear-gradient( rgb(236, 235, 235), white);
-    border-radius: 20px;
-    padding: 10px;
-}
-
-#main .novita-blog-carrosello .carousel-inner .cont-item img {
-    width: 100%;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px rgb(61, 61, 61);
-}
-
-#main .novita-blog-carrosello .carousel-inner .cont-item a {
-    text-decoration: none;
-}
-
-#main .novita-blog-carrosello .carousel-inner .cont-item h4 {
-    color: black;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-#main .novita-blog-carrosello  .carousel-inner .cont-item p {
-    color: rgb(85, 85, 85);
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
-#main .novita-blog-carrosello .carousel-inner .cont-item .pie {
-    margin-bottom: 60px;
-}
-
-#main .novita-blog-carrosello  .carousel-inner .cont-item .pie > img {
-    float: left;
-    border-radius: 0;
-    height: 15%;
-    width: 15%;
-    margin-right: 10px;
-}
-
-#main .novita-blog-carrosello .carousel-inner .cont-item .pie > p {
-    color: black;
-    margin: 0.2em;
-    font-size: 0.8em;
-    
-}
-
-#main .novita-blog-carrosello .carousel-indicators [data-bs-target] {
-    background-color: #00439c;
-}
-
-#main .novita-blog-carrosello .carousel-control-prev-icon, .carousel-control-next-icon {
-    background-color: #00439c;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    
-}
-
+/* --------------------- STYLE FOR HOME PAGE --------------------- */
 
 /* STYLE FOR DIV CARROSELLO-AUTOPLAY  */
 
 #main .carrosello-autoplay .carousel-inner {
+/* sposta indicators sotto l'immagine grande */
     padding-bottom: 170px;
 }
 
-#main .carrosello-autoplay .carousel-indicators [data-bs-target] {
+#main .carrosello-autoplay .carousel-indicators [data-bs-target] { 
+/* formata gli indicators */
     max-width: 180px;
     width: 100%;
     height: 100%;
@@ -512,10 +78,12 @@ body {
 }
 
 #main .carrosello-autoplay .carousel-inner .div-image1 {
+/* posiziona il div con immagine + testo + bottone */
     position: absolute;
     width: 35%;
     top: 25%;
     left: 8%;
+    color: white;
 }
 
 #main .carrosello-autoplay .carousel-inner .div-image1 img {
@@ -523,7 +91,6 @@ body {
 }
 
 #main .carrosello-autoplay .carousel-inner .div-image1 h2 {
-    color: white;
     font-size: 2.8em;
     font-weight: lighter;
     margin-top: 10px;
@@ -531,20 +98,14 @@ body {
 }
 
 #main .carrosello-autoplay .carousel-inner .div-image1 p {
-    color: white;
     font-size: 1.3em;
     margin-bottom: 20px;
 }
 
-
-/* STYLE FOR DIV CARROSELLO-SENZA-AUTOPLAY */
+/* STYLE FOR DIV CARROSELLO-SENZA-AUTOPLAY  */
 
 #main .carrosello-senza-autoplay .carousel-inner {
     padding-bottom: 250px;
-}
-
-#main .carrosello-senza-autoplay .carousel-indicators {
-    margin-left: 10%;
 }
 
 #main .carrosello-senza-autoplay .carousel-indicators [data-bs-target] {
@@ -562,95 +123,145 @@ body {
     border-radius: 20px;
 }
 
-#main .carrosello-senza-autoplay .carousel-indicators .button-ind {
-    padding: 10px 20px;
-}
-
 #main .carrosello-senza-autoplay .carousel-indicators .button-ind img {
     margin-bottom: 10px;
     max-height: 100px;
+    padding: 10px 20px;
 }
 
 #main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 80%;
-    height: 700px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    justify-items: center;
 }
 
 #main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 h3 {
-    font-weight: normal;
-    margin-bottom: 1em;
-}
-
-#main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 p {
     font-weight: lighter;
     margin-bottom: 1em;
-    font-size: 1em;
+    margin-top: 1em;
 }
 
 #main .carrosello-senza-autoplay .carousel-inner .contenitore-grid-carousel2 .grid-item-carousel2 img {
     width: 80%;
 }
 
+/* STYLE FOR DIV PLAYSTATION-PLUS */
 
-/* STYLE FOR BOTTONI */
-.bottone {
-    border-radius: 20px;
-    border: none;
-    font-size: 0.9em;
-    font-weight: bold;
-    padding: 10px 12px;
+#main .playstation-plus {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-monthly-games-banner-desktop-01-en-27may22?$1600px$);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.bottone:hover {
-    outline-offset: 2px;
-    opacity: .7;
+#main .playstation-plus .contenitore-grid-playstation-plus {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5% 20%;
+    align-items: center;
 }
 
-.bottone a {
-    text-decoration: none;
+#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 img {
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-1 p {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+#main .playstation-plus .contenitore-grid-playstation-plus .grid-item-playstation-plus-2 img {
+    width: 100%;
+}
+
+/* STYLE FOR DIV USCITE-MESE  */
+
+#main .uscite-mese {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/this-month-on-playstation-jan-homepage-background-desktop-01-en-13dec22?$4000px$);
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-position-x: 50%;
+    background-color: #26254f;
+}
+
+#main .uscite-mese .contenitore-uscite-mese .testo-bottone {
+    padding: 2% 17%;
+    width: 70%;
     color: white;
 }
 
-.bottone-blue {
-    background-color: rgb(0 112 204);
+#main .uscite-mese .contenitore-uscite-mese .testo-bottone h2 {
+    font-size: 2.3em;
+    font-weight: lighter;
+    margin: 15px 0;
 }
 
-.bottone-blue:hover {
-    outline: 2px solid rgb(0 112 204);  
+#main .uscite-mese .contenitore-uscite-mese .testo-bottone h3 {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-weight: lighter;
+    margin-bottom: 2em;
 }
 
-.bottone-white {
-    background-color: white;
+#main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    padding: 3% 16%;
+    justify-content: space-between;
 }
 
-.bottone-white:hover {
-    outline: 2px solid white;
+#main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image a img {
+    width: 100%;
+    box-shadow: 2px 3px 3px 0 black;
+    border-radius: 15px;
+    transition: 0.3s;
 }
 
-.bottone-white a {
-    color:black;
+#main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image a img:hover {
+    transform: scale(1.03);
 }
 
-.bottone-orange {
-    background-color: rgb(214 61 0);
-    margin-bottom: 10px;
+#main .uscite-mese .contenitore-uscite-mese .imag-testo .cont-image p {
+    font-size: 1.6em;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
 }
 
-.bottone-orange:hover {
-    outline: 2px solid  rgb(214 61 0);
+/* STYLE FOR DIV LAST-OF-US */
+
+#main .last-of-us {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-hero-banner-desktop-01-ps5-en-11aug22?$2400px$);
+    background-repeat: no-repeat;
 }
 
+#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us {
+    width: 60%;
+    color: white;
+    padding: 16% 0 3% 18%;
+}
 
-/* STYLE FOR DIV CARROSELLO-ESTATICO-PROPRIO */
+#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us img {
+    width: 60%;
+}
+
+#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us h2 {
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+
+#main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us .p-last-of-us {
+    margin-bottom: 1.5em;
+}
+
+/* STYLE FOR DIV CARROSELLO-ESTATICO-PROPRIO  */
 
 #main .carrosello-estatico-proprio {
-    background-color: black;
+    background-color: #121314;
     padding: 3% 0 3% 16%;
     color: white;
     display: flex;
@@ -663,9 +274,7 @@ body {
 
 #main .carrosello-estatico-proprio .grid-testo-frecce {
     display: grid;
-    width: 100%;
     grid-template-columns: 80% 20%;
-    margin-top: 10px;
 }
 
 #main .carrosello-estatico-proprio .grid-testo-frecce .arrow {
@@ -682,34 +291,330 @@ body {
 
 #main .carrosello-estatico-proprio .grid-cotenitore-image-carrosello {
     display: grid;
-    width: 100%;
     grid-template-columns: 15% 15% 15% 15% 15% 15%;
     column-gap: 2%;
+    row-gap: 35px;
     margin-top: 35px;
 }
 
 #main .carrosello-estatico-proprio .grid-cotenitore-image-carrosello img {
     width: 100%;
-    min-height: 189px;
+    min-height: 160px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 #main .carrosello-estatico-proprio .opaco {
-    margin-left: 30px;
     opacity: 0.5;
-    margin-top: 10px;
-    width: 15%;
 }
 
 #main .carrosello-estatico-proprio .opaco .item-opaco {
-    width: 100%;
-    max-width: 187px;
+    max-width: 180px;
 }
 
 #main .carrosello-estatico-proprio .opaco img {
     width: 100%;
-    min-height: 187px;
+    min-height: 160px;
     border-radius: 10px;
     opacity: 0.5;
     margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+/* STYLE FOR DIV FEEL-NEW-REAL */
+
+#main .feel-new-real {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/psvr2-register-homepage-hero-desktop-01-en-14nov22?$2400px$);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main .feel-new-real .testo-feel {
+    width: 45%;
+    color: white;
+    padding: 12% 0 15% 10%;
+}
+
+#main .feel-new-real .testo-feel h2 {
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin-bottom: 1em;
+}
+
+
+/* STYLE FOR DIV ESPLORA-PS4 */
+
+#main .esplora-ps4 .titolo-ps4 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#main .esplora-ps4 .titolo-ps4 h2 {
+    font-weight: lighter;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#main .esplora-ps4 .titolo-ps4 h4 {
+    font-weight: normal;
+}
+
+#main .contenit-ps4-grid {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+#main .contenit-ps4-grid .item-grid-ps4 img {
+    width: 90%;
+    min-height: 227px;
+}
+
+#main .contenit-ps4-grid .item-grid-ps4 h2 {
+    font-weight: normal;
+    font-size: 2.3em;
+    margin-bottom: .7em;
+}
+
+#main .contenit-ps4-grid .item-grid-ps4 p {
+    font-size: 1.15em;
+    color: rgb(77, 77, 77);
+    margin-bottom: 1em;
+}
+
+/* STYLE FOR DIV PS-STORE */
+
+#main .ps-store .contenitore-grid-ps-store {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 3% 15%;
+    column-gap: 40px;
+    align-items: center;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store h2 {
+    font-weight: normal;
+    font-size: 2.2em;
+    margin-bottom: .7em;
+    margin-top: .5em;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store p {
+    color: rgb(77, 77, 77);
+    margin-bottom: 1.5em;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item1-ps-store img {
+    width: 100%;
+}
+
+#main .ps-store .contenitore-grid-ps-store .grid-item2-ps-store img {
+    width: 90%;
+    border-radius: 30px;
+}
+
+/* STYLE FOR DIV TIENDA */
+
+#main .tienda {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-gear-evergreen-background-block-desktop-01-en-27may22?$2400px$);
+    background-repeat: no-repeat;
+    padding: 2% 10%;
+    background-position-x: 50%;
+}
+
+#main .tienda .testo-tienda {
+    width: 45%;
+}
+
+#main .tienda .testo-tienda img {
+    height: 70px;
+}
+
+#main .tienda .testo-tienda h2 {
+    font-weight: normal;
+    font-size: 2.3em;
+    margin-bottom: .7em;
+    margin-top: .8em;
+    color: white;
+}
+
+#main .tienda .testo-tienda p {
+    font-size: 1.2em;
+    color: rgb(77, 77, 77);
+}
+
+#main .tienda .contenitore-grid-tienda {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    padding: 3% 0;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main .tienda .contenitore-grid-tienda .grid-item-tienda {
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    text-align: center;
+}
+
+#main .tienda .contenitore-grid-tienda .grid-item-tienda img {
+    width: 60%;
+    padding: 25px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main .tienda .contenitore-grid-tienda .grid-item-tienda p {
+    font-size: 1.3em;
+    margin-bottom: 2.5em;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#main .tienda .bottone-tienda {
+    text-align: center;
+}
+
+/* STYLE FOR DIV NOVITA-BLOG-CARROSELLO */
+
+#main .novita-blog-carrosello .titolo-blog h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#main .novita-blog-carrosello .carrosello {
+    display: grid;
+    grid-template-columns: 2% 30% 30% 30% 2%;
+    column-gap: 1%;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main .novita-blog-carrosello .carrosello .cont-item {
+    background-image: linear-gradient(rgb(245, 245, 245), rgb(250, 250, 250));
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(235, 234, 234);
+}
+
+#main .novita-blog-carrosello .carrosello .cont-item .img-cont {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(61, 61, 61);
+    min-width: 323px;
+}
+
+#main .novita-blog-carrosello .carrosello .cont-item h4 {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#main .novita-blog-carrosello .carrosello .cont-item p {
+    color: rgb(85, 85, 85);
+    margin-bottom: 30px;
+}
+
+#main .novita-blog-carrosello .carrosello .cont-item .pie {
+    margin-bottom: 30px;
+}
+
+#main .novita-blog-carrosello .carrosello .cont-item .pie .img-pie {
+    float: left;
+    border-radius: 4px;
+    height: 15%;
+    width: 15%;
+    margin-right: 10px;
+}
+
+#main .novita-blog-carrosello .carrosello .cont-item .pie>p {
+    color: black;
+    margin: 0.2em;
+    font-size: 0.8em;
+}
+
+#main .novita-blog-carrosello .freccia {
+    align-self: center;
+    font-size: 2.8em;
+    color: #0070cc;
+}
+
+/* STYLE FOR SECTION FOOTER    */
+
+#footer .contenitore-grigio {
+    background-color: rgb(245, 247, 250);
+    margin-top: 60px;
+}
+
+#footer .contenitore-grigio h3 {
+    color: rgb(75, 74, 74);
+    font-size: 2em;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#footer .contenitore-grigio .social-link {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 100px 0;
+
+}
+
+#footer .contenitore-grigio .social-link a {
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    font-size: 75px;
+}
+
+#footer .contenitore-blue {
+    background-color: #00439c;
+}
+
+#footer .contenitore-blue .footer-blue-grid {
+    padding: 5% 18% 3% 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: white;
+}
+
+#footer .contenitore-blue .footer-blue-grid .footer-logo-paese img {
+    height: 90px;
+    margin-bottom: 15px;
+}
+
+#footer .contenitore-blue .footer-blue-grid .footer-logo-paese p a,
+#footer .contenitore-blue .footer-blue-grid .footer-nav-vertical li a,
+#footer .contenitore-blue .footer-blue-grid .footer-legal p a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer .contenitore-blue .footer-blue-grid .footer-nav-vertical {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .contenitore-blue .footer-blue-grid .footer-nav-vertical li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#footer .contenitore-blue .footer-blue-grid .footer-legal img {
+    height: 50px;
 }
