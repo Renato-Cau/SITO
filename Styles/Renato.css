@@ -77,6 +77,13 @@ button.accedi:hover {
     
 }
 
+.accedi a {
+
+    text-decoration: none;
+    color: white;
+    
+}
+
 
 /* CSS primo blocco */
 

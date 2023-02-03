@@ -237,6 +237,7 @@ body {
 #main .last-of-us {
     background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-hero-banner-desktop-01-ps5-en-11aug22?$2400px$);
     background-repeat: no-repeat;
+    background-position-x: 30%;
 }
 
 #main .last-of-us .contenitore-last-of-us .texto-imag-last-of-us {
@@ -309,7 +310,7 @@ body {
 }
 
 #main .carrosello-estatico-proprio .opaco .item-opaco {
-    max-width: 180px;
+    max-width: 160px;
 }
 
 #main .carrosello-estatico-proprio .opaco img {
@@ -473,7 +474,6 @@ body {
 }
 
 #main .tienda .contenitore-grid-tienda .grid-item-tienda p {
-    font-size: 1.3em;
     margin-bottom: 2.5em;
     text-align: center;
     padding: 0 10px;
@@ -516,7 +516,7 @@ body {
     min-width: 323px;
 }
 
-#main .novita-blog-carrosello .carrosello .cont-item h4 {
+#main .novita-blog-carrosello .carrosello .cont-item h5 {
     color: black;
     margin-top: 20px;
     margin-bottom: 30px;
