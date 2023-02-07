@@ -130,3 +130,96 @@ div.ps4_logo img {
 
 
 /* CSS secondo blocco */
+
+section.second_block {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 6%;
+
+}
+
+.kratos {
+    width: 100%;
+}
+
+.gow_box {
+    display: flex;
+    padding: 4%;
+}
+
+.gow_video {
+    width: 190%;
+}
+
+video.gow_trailer {
+    border-radius: 27px;
+    width: 64%;
+}
+video.gow_trailer:hover{
+    width: 67%;
+    
+}
+    
+
+.box_gow_info {
+    display: block;
+    text-align: left;
+}
+
+
+
+p.gow-txt-style {
+    display: block;
+    text-align: left;
+    
+}
+
+
+
+
+button.gow_more_info {
+    background-color: rgb(0 112 204);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 12px;
+
+}
+
+button.gow_more_info:hover {
+    outline: 2px solid rgb(0 112 204);
+    outline-offset: 2px;
+}
+
+.horizon {
+    width: 100%;
+}
+
+.horizon_box {
+    display: flex;
+    padding: 4%;
+   
+}
+
+video.horizon_trailer {
+    border-radius: 27px;
+    width: 60%;
+}
+
+video.horizon_trailer:hover {
+   
+    width: 63%;
+}
+
+.box_horizon_info {
+    display: block;
+    text-align: left;
+}
