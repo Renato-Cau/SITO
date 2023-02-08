@@ -48,11 +48,8 @@ img.logo_sony {
     list-style: none;
 }
 
-a.dropdown-item:hover {
-
+a.dropdown-item:hover, a.nav-link:hover {
     color:  rgb(0, 112, 204);
-
-
 }
 
 
@@ -91,6 +88,8 @@ section.first_block {
     background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps4-games-page-banner-desktop-01-en-13dec21?$4000px$);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    overflow: hidden;
+    height: 620px; 
     width: 100%;
     padding: 12%;
 }
@@ -140,35 +139,53 @@ section.second_block {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
-    padding: 6%;
+    
 
+}
+
+.first_text {
+    display: block;
+    padding: 2%;
 }
 
 .kratos {
-    width: 100%;
+    width: 90%;
+    
 }
 
 .gow_box {
-    display: flex;
-    padding: 4%;
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90%;
+    grid-template-columns: 50% 50%;
+}
+
+.gow_img {
+    overflow: hidden;
+    height: 625px;
 }
 
 .gow_video {
-    width: 190%;
+    position: relative;
+    top: -76px;
+    left: 45px;
 }
 
 video.gow_trailer {
     border-radius: 27px;
-    width: 64%;
+    width: 70%;
+    transition: 0.2s;
 }
 video.gow_trailer:hover{
-    width: 67%;
+    
+    transform: scale(1.02);
     
 }
     
 
 .box_gow_info {
-    display: block;
+   
     text-align: left;
 }
 
@@ -199,27 +216,72 @@ button.gow_more_info:hover {
     outline-offset: 2px;
 }
 
-.horizon {
+
+
+/* css terzo blocco */
+
+section.third_block {
+    display: block;
+    text-align: center;
+    padding: 2%;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     width: 100%;
+    
+
 }
 
-.horizon_box {
-    display: flex;
-    padding: 4%;
-   
+img.horizon{
+    width: 94%;
+       
 }
 
-video.horizon_trailer {
-    border-radius: 27px;
-    width: 60%;
+.horizon_img {
+    overflow: hidden;
+    height: 589px; 
+
 }
 
-video.horizon_trailer:hover {
-   
-    width: 63%;
+.box_hori_info {
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90%;
+    grid-template-columns: 50% 50%;
 }
 
-.box_horizon_info {
+p.hori-text-style {
     display: block;
     text-align: left;
 }
+
+
+video.hori_trailer {
+    position: relative;
+    left: 360px;
+    top: -51px;
+    border-radius: 27px;
+    width: 31%;
+    transition: 0.2s;
+}
+
+video.hori_trailer:hover{
+    
+    transform: scale(1.02);
+    
+}
+
+h3.txt-style-medium-title.txt-block-paragraph__title {
+    text-align: left;
+    position: relative;
+    top: -228px;
+    left: 140px;
+}
+
+.button_hori {
+    text-align: left;
+    position: relative;
+    left: -488px;
+    top: -165px;
+} 
