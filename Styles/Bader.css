@@ -1,0 +1,59 @@
+/* .sfondo-PlaystationPlus {
+    background-color:#c7c9cf;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-jan-hero-banner-mobile-01-13jan23$en?$1600px$);
+    background-size: 60%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}  */
+
+/*.sfondo-PlaystationPlus {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-jan-hero-banner-mobile-01-13jan23$en?$1600px$);
+    background-color: #c7c9cf;
+    background-blend-mode: normal;
+    background-size: 60%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}*/
+
+.sfondo-PlaystationPlus > img {
+    width: 100%;
+}
+
+.sfondo-PlaystationPlus {
+    position: relative;
+}
+
+.sfondo-PlaystationPlus .left-side {
+    position: absolute;
+    top: 0;
+}
+
+
+.bottone {
+    background-color: rgb(0 112 204);
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 12px;
+}
+
+.bottone:hover {
+    outline: 2px solid rgb(0 112 204);
+    outline-offset: 2px;
+}
+
+.bottone a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo-Playstation img{
+    width: 400px;
+    padding: 55px;
+    padding-left: 150px;
+
+}
+
+
