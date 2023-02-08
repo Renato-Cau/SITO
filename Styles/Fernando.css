@@ -303,6 +303,11 @@ body {
     min-height: 160px;
     border-radius: 10px;
     margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+#main .carrosello-estatico-proprio .grid-cotenitore-image-carrosello img:hover {
+    transform: scale(1.02);
 }
 
 #main .carrosello-estatico-proprio .opaco {
