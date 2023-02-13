@@ -89,7 +89,7 @@ section.first_block {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
-    height: 620px; 
+    height: 643px; 
     width: 100%;
     padding: 12%;
 }
@@ -259,7 +259,7 @@ p.hori-text-style {
 
 video.hori_trailer {
     position: relative;
-    left: 360px;
+    left: 412px;
     top: -51px;
     border-radius: 27px;
     width: 31%;
