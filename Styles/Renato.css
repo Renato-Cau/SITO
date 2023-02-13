@@ -259,7 +259,7 @@ p.hori-text-style {
 
 video.hori_trailer {
     position: relative;
-    left: 412px;
+    left: 366px;
     top: -51px;
     border-radius: 27px;
     width: 31%;
@@ -285,3 +285,93 @@ h3.txt-style-medium-title.txt-block-paragraph__title {
     left: -488px;
     top: -165px;
 } 
+
+/* css quarto blocco */
+
+
+section.carousel_block{
+    background-image:url(https://gmedia.playstation.com/is/image/SIEPDC/ps4-games-page-background-block-desktop-02-en-08nov22?$4000px$);
+    display: block;
+    text-align: center;
+    padding: 2%;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+ 
+}
+
+
+img.duty {
+    width: 94%;
+}
+
+
+.duty {
+    width: 90%;
+    
+}
+
+.cod_box {
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 90%;
+    grid-template-columns: 50% 50%;
+}
+
+h2.codmw {
+    color: white;
+  
+}
+
+.cod_img {
+    overflow: hidden;
+    height: 625px;
+}
+
+.cod_video {
+    position: relative;
+    top: -76px;
+    left: 45px;
+}
+
+video.cod_trailer {
+    border-radius: 27px;
+    width: 70%;
+    transition: 0.2s;
+}
+video.cod_trailer:hover{
+    
+    transform: scale(1.02);
+    
+}
+    
+.box_cod_info {
+    text-align: left;
+    color: white;
+}
+
+
+p.cod-txt-style {
+    display: block;
+    text-align: left;
+    
+}
+
+
+button.cod_more_info {
+    background-color: rgb(246, 247, 248);
+    color: rgb(29, 28, 28);
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 12px;
+
+}
+
+button.cod_more_info:hover {
+    outline: 2px solid rgb(245, 246, 247);
+    outline-offset: 2px;
+}
