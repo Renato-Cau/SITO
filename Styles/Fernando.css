@@ -43,6 +43,14 @@ body {
 
 /* --------------------- STYLE FOR HOME PAGE --------------------- */
 
+/* STYLE FOR NAV-STICKY */
+
+#nav-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
 /* STYLE FOR DIV CARROSELLO-AUTOPLAY  */
 
 #main .carrosello-autoplay .carousel-inner {
