@@ -45,7 +45,7 @@ body {
 
 /* STYLE FOR NAV-STICKY */
 
-#nav-sticky {
+.nav-sticky {
     position: sticky;
     top: 0;
     z-index: 9999;
@@ -113,6 +113,7 @@ body {
 /* STYLE FOR DIV CARROSELLO-SENZA-AUTOPLAY  */
 
 #main .carrosello-senza-autoplay .carousel-inner {
+/* sposta indicators sotto l'immagine grande */
     padding-bottom: 250px;
 }
 
