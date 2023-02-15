@@ -1,5 +1,4 @@
 /*   CSS TASTO SEARCH */
-
 input.form-control.me-2 {
     margin-right: .5rem!important;
     width: 60%;
@@ -7,15 +6,13 @@ input.form-control.me-2 {
     left: 40%;
 }
 
-/* CSS per barra nera sony*/
 
+/* CSS per barra nera sony*/
 .barra_sony {
     background-color: black;
     background-color: black;
     display: flex;
     flex-direction: row-reverse;
-    
-    
 }
 
 img.logo_sony {
@@ -23,10 +20,10 @@ img.logo_sony {
     min-height: 36px;
     max-width: 75px;
     width: 100%;
-   
 }
-/* NAVBAR CSS */
 
+
+/* NAVBAR CSS */
 .logo-nav-bar a {
     font-size: 40px;
     margin: 0 25px 0 15px;
@@ -54,7 +51,6 @@ a.dropdown-item:hover, a.nav-link:hover {
 
 
 /* tasto accedi */
-
 button.accedi {
     background-color: rgb(0, 112, 204);
     border-radius: 20px;
@@ -83,21 +79,29 @@ button.accedi:hover {
 
 
 /* CSS primo blocco */
-
 section.first_block {
     background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps4-games-page-banner-desktop-01-en-13dec21?$4000px$);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
+    height: 712px; 
+    height: 643px; 
     height: 643px; 
     width: 100%;
     padding: 12%;
 }
+
 .text_block1 {
+    position: relative;
+    padding: 4%;
+    bottom: -59px;
+    color: white;
     background-color: black;
     opacity: 80%;
     width: 644px;
     height: 343px;
+    margin: auto;
+    text-align: center;
 }
 
 .div.blocco_testo div h1 {
@@ -127,9 +131,7 @@ div.ps4_logo img {
     text-align: center;
 }
 
-
 /* CSS secondo blocco */
-
 section.second_block {
     display: block;
     width: 100%;
@@ -183,22 +185,16 @@ video.gow_trailer:hover{
     
 }
     
-
 .box_gow_info {
    
     text-align: left;
 }
-
-
 
 p.gow-txt-style {
     display: block;
     text-align: left;
     
 }
-
-
-
 
 button.gow_more_info {
     background-color: rgb(0 112 204);
@@ -208,7 +204,6 @@ button.gow_more_info {
     font-size: 0.9em;
     font-weight: bold;
     padding: 10px 12px;
-
 }
 
 button.gow_more_info:hover {
@@ -217,9 +212,7 @@ button.gow_more_info:hover {
 }
 
 
-
 /* css terzo blocco */
-
 section.third_block {
     display: block;
     text-align: center;
@@ -228,8 +221,6 @@ section.third_block {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
-    
-
 }
 
 img.horizon{
@@ -256,9 +247,9 @@ p.hori-text-style {
     text-align: left;
 }
 
-
 video.hori_trailer {
     position: relative;
+    left: 416px;
     left: 366px;
     top: -51px;
     border-radius: 27px;
@@ -276,19 +267,94 @@ h3.txt-style-medium-title.txt-block-paragraph__title {
     text-align: left;
     position: relative;
     top: -228px;
+    left: 184px;
     left: 140px;
+    left: 140px;
+
 }
 
 .button_hori {
     text-align: left;
     position: relative;
-    left: -488px;
+    left: -533px;
     top: -165px;
 } 
 
+
+/* css quarto blocco*/
+img.png_carousel {
+    height: 252px;
+    border-radius: 5px;
+}
+
+section.flex.img {
+    display: flex;
+    text-align: center;
+    margin-left: 166px;
+    padding-bottom: 30px;
+    width: 60%;
+}
+
+.title_carousel {
+    position: relative;
+    top: 7px;
+}
+
+h5.txt-style-subtitle-bold.txt-block-utility__title {
+    font-size: small;
+    font-weight: bold;
+}
+
+p.txt-style-utility.mt--none {
+    font-size: x-small;
+}
+
+.blocco_img {
+    margin-right: 10px;
+    transition: 0.3s;
+    background-color: whitesmoke;
+    padding: 8px;
+    border-radius: 5px;
+    
+
+}
+
+.blocco_img:hover{
+
+    transform: translate(0,-8px);
+
+}
+
+.carr_info {
+    background-color: rgb(0 112 204);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 12px;
+}
+
+.carr_info:hover{
+
+    outline: 2px solid rgb(0 112 204);
+    outline-offset: 2px;
+    
+}
+
+section.caroselli {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps4-games-page-background-block-desktop-02-en-08nov22?$4000px$);
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 161%;
+    background-position-y: 210%;
+}
+
+
+
 /* css quarto blocco */
-
-
 section.carousel_block{
     background-image:url(https://gmedia.playstation.com/is/image/SIEPDC/ps4-games-page-background-block-desktop-02-en-08nov22?$4000px$);
     display: block;
@@ -297,8 +363,13 @@ section.carousel_block{
     font-family: sans-serif;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 0 100%;
     width: 100%;
- 
+}
+
+.carousel.button {
+    text-align: left;
 }
 
 
@@ -306,10 +377,8 @@ img.duty {
     width: 94%;
 }
 
-
 .duty {
     width: 90%;
-    
 }
 
 .cod_box {
@@ -321,8 +390,10 @@ img.duty {
 }
 
 h2.codmw {
+
+    margin-top: 80px;
+    margin-bottom: 80px;
     color: white;
-  
 }
 
 .cod_img {
@@ -359,7 +430,6 @@ p.cod-txt-style {
     
 }
 
-
 button.cod_more_info {
     background-color: rgb(246, 247, 248);
     color: rgb(29, 28, 28);
@@ -375,3 +445,88 @@ button.cod_more_info:hover {
     outline: 2px solid rgb(245, 246, 247);
     outline-offset: 2px;
 }
+
+section.flex.img2 {
+    display: flex;
+    text-align: center;
+    padding-bottom: 30px;
+    overflow-x: hidden;
+}
+
+.blocco_img2 {
+    margin-right: 10px;
+    transition: 0.3s;
+    background-color: black;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.blocco_img2:hover{
+    transform: translate(0,-8px);
+}
+
+.spec_game {
+    position: relative;
+    top: 6px;
+}
+
+.carr_info2 {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 12px;
+}
+
+.carr_info2:hover{
+
+    outline: 2px solid rgb(245, 246, 247);
+    outline-offset: 2px;
+}
+
+.carousel.button1 {
+    position: relative;
+    bottom: -39px;
+    text-align: left;
+}
+
+.carousel.button2 {
+    position: relative;
+    bottom: -9px;
+    text-align: left;
+}
+
+.carousel.button3 {
+    position: relative;
+    bottom: 6px;
+    text-align: left;
+}
+
+.carousel.button4 {
+    position: relative;
+    bottom: -9px;
+    text-align: left;
+}
+
+.carousel.button5 {
+    position: relative;
+    bottom: -8px;
+    text-align: left;
+}
+
+
+.carousel.button6 {
+    position: relative;
+    bottom: 7px;
+    text-align: left;
+}
+
+.carousel.buttonX {
+    position: relative;
+    text-align: left;
+    top: 16px;
+}
+
