@@ -1,21 +1,4 @@
-/* .sfondo-PlaystationPlus {
-    background-color:#c7c9cf;
-    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-jan-hero-banner-mobile-01-13jan23$en?$1600px$);
-    background-size: 60%;
-    background-position-x: right;
-    background-repeat: no-repeat;
-}  */
-
-/*.sfondo-PlaystationPlus {
-    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-jan-hero-banner-mobile-01-13jan23$en?$1600px$);
-    background-color: #c7c9cf;
-    background-blend-mode: normal;
-    background-size: 60%;
-    background-position-x: right;
-    background-repeat: no-repeat;
-}*/
-
-.sfondo-PlaystationPlus > img {
+.sfondo-PlaystationPlus>img {
     width: 100%;
 }
 
@@ -29,6 +12,140 @@
 }
 
 
+.left-side .bottone {
+    background-color: rgb(0 112 204);
+    border-radius: 20px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 12px;
+    margin-left: 150px;
+}
+
+.left-side .bottone:hover {
+    outline: 2px solid rgb(0 112 204);
+    outline-offset: 2px;
+   
+}
+
+.left-side .bottone a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.logo-Playstation img {
+    width: 450px;
+    padding: 55px;
+    padding-left: 150px;
+}
+
+.titolo-PlaystationPlus {
+   
+    padding: 1px;
+    padding-left: 150px;
+    left: 2px;
+
+}
+
+.testo-sopra-bottone {
+    padding: 1px;
+    padding-left: 150px;
+    border-radius: 0%;
+    left: 2px;
+
+}
+
+.text-centrale h2 {
+    text-align: center;
+    padding: 100px;
+    font-size: 55px;
+
+}
+
+.text-centrale-piccolo h6 {
+    text-align: center;
+    
+
+}
+
+
+
+.locandina{
+width: 30%;
+background-color: #f5f0f0;
+border-radius: 20px;
+}
+
+.locandina:hover{
+    box-shadow:5px  5px 3px #dedede,
+              -5px -5px 3px #dedede,
+               5px -5px 3px #dedede,
+              -5px  5px 3px #dedede;
+}
+
+
+.scritta-scopri {
+color: azure;
+
+}
+.griglia{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 75px;
+}
+
+.intestazione{
+    height: 80px;
+    width: 330px;
+    margin: 10px;
+    border-radius: 17px;
+    box-shadow:5px  5px 3px #a8a8a8,
+              -5px -5px 3px #a8a8a8,
+               5px -5px 3px #a8a8a8,
+              -5px  5px 3px #a8a8a8;
+}
+
+.intestazione .scritta-premium{
+    color: #fcc000;
+}
+
+.paddInt{
+    padding: 5px 10px;
+}
+
+.paddLista{
+    padding: 10px;
+    
+}
+
+.container-griglia{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.griglia-novità{
+    display: flex;
+    justify-content: space-evenly;
+    width: 885px;
+}
+
+.box-novità-img img{
+    border-radius: 10px;
+}
+
+.box-novità-text{
+    text-align: center;
+}
+
+.barra-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6px;
+}
 .bottone {
     background-color: rgb(0 112 204);
     border-radius: 20px;
@@ -36,24 +153,26 @@
     font-size: 0.9em;
     font-weight: bold;
     padding: 10px 12px;
+    
 }
 
 .bottone:hover {
     outline: 2px solid rgb(0 112 204);
     outline-offset: 2px;
+  
 }
 
 .bottone a {
     text-decoration: none;
     color: white;
+  
 }
-
-
-.logo-Playstation img{
-    width: 400px;
-    padding: 55px;
-    padding-left: 150px;
-
+.testo-sotto-locandina{
+    text-align: center;
+    padding-top: 150px;
+   
 }
-
-
+.immagine-sfondo-playstationPlus{
+    background-color: rgb(204, 204, 204);
+ 
+}
