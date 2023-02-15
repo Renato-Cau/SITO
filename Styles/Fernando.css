@@ -45,7 +45,15 @@ body {
 
 /* STYLE FOR NAV-STICKY */
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+#nav-sticky {
+=======
 .nav-sticky {
+>>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
+=======
+.nav-sticky {
+>>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
     position: sticky;
     top: 0;
     z-index: 9999;
