@@ -89,31 +89,15 @@ section.first_block {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height: 712px; 
-=======
     height: 643px; 
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
-=======
-    height: 643px; 
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
     width: 100%;
     padding: 12%;
 }
-
-
 .text_block1 {
-    position: relative;
-    padding: 4%;
-    bottom: -59px;
-    color: white;
     background-color: black;
     opacity: 80%;
     width: 644px;
     height: 343px;
-    margin: auto;
-    text-align: center;
 }
 
 .div.blocco_testo div h1 {
@@ -275,15 +259,7 @@ p.hori-text-style {
 
 video.hori_trailer {
     position: relative;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    left: 416px;
-=======
     left: 366px;
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
-=======
-    left: 366px;
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
     top: -51px;
     border-radius: 27px;
     width: 31%;
@@ -300,107 +276,12 @@ h3.txt-style-medium-title.txt-block-paragraph__title {
     text-align: left;
     position: relative;
     top: -228px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    left: 184px;
-=======
     left: 140px;
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
-=======
-    left: 140px;
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
 }
 
 .button_hori {
     text-align: left;
     position: relative;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    left: -533px;
-    top: -165px;
-} 
-
-/* css quarto blocco*/
-
-
-img.png_carousel {
-    height: 252px;
-    border-radius: 5px;
-}
-
-section.flex.img {
-    display: flex;
-    text-align: center;
-    margin-left: 170px;
-    padding-bottom: 30px;
-    width: 60%;
-}
-
-.title_carousel {
-    position: relative;
-    top: 7px;
-}
-
-h5.txt-style-subtitle-bold.txt-block-utility__title {
-    font-size: small;
-    font-weight: bold;
-}
-
-p.txt-style-utility.mt--none {
-    font-size: x-small;
-}
-
-.blocco_img {
-    margin-right: 10px;
-    transition: 0.3s;
-    background-color: whitesmoke;
-    padding: 8px;
-    border-radius: 5px;
-    
-
-}
-
-.blocco_img:hover{
-
-    transform: translate(0,-8px);
-
-}
-
-.carr_info {
-    background-color: rgb(0 112 204);
-    color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 3px 12px;
-}
-
-.carr_info:hover{
-
-    outline: 2px solid rgb(0 112 204);
-    outline-offset: 2px;
-    
-}
-
-
-section.caroselli {
-    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps4-games-page-background-block-desktop-02-en-08nov22?$4000px$);
-    display: block;
-    text-align: center;
-    font-family: sans-serif;
-    background-repeat: no-repeat;
-    background-size: 161%;
-    background-position-y: 210%;
-}
-
-
-
-section.carousel_block{
-   
-=======
-=======
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
     left: -488px;
     top: -165px;
 } 
@@ -410,40 +291,17 @@ section.carousel_block{
 
 section.carousel_block{
     background-image:url(https://gmedia.playstation.com/is/image/SIEPDC/ps4-games-page-background-block-desktop-02-en-08nov22?$4000px$);
-<<<<<<< HEAD
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
-=======
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
     display: block;
     text-align: center;
     padding: 2%;
     font-family: sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     background-repeat: no-repeat;
     background-size: 100% 100%;
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
-=======
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
     width: 100%;
  
 }
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.carousel.button {
-    text-align: left;
-   
-}
-
-=======
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
-=======
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
 img.duty {
     width: 94%;
 }
@@ -463,25 +321,10 @@ img.duty {
 }
 
 h2.codmw {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    margin-top: 80px;
-    margin-bottom: 80px;
-    color: white;
-}
-
-
-=======
-=======
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
     color: white;
   
 }
 
-<<<<<<< HEAD
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
-=======
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
 .cod_img {
     overflow: hidden;
     height: 625px;
@@ -532,100 +375,3 @@ button.cod_more_info:hover {
     outline: 2px solid rgb(245, 246, 247);
     outline-offset: 2px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-section.flex.img2 {
- display: flex;
-    text-align: center;
-    margin-left: -60px;
-    padding-bottom: 30px;
-    width: 60%;
-}
-
-.blocco_img2 {
-    margin-right: 10px;
-    transition: 0.3s;
-    background-color: black;
-    color: aliceblue;
-    padding: 8px;
-    border-radius: 5px;
-    
-
-}
-
-.blocco_img2:hover{
-
-    transform: translate(0,-8px);
-
-}
-
-.spec_game {
-    position: relative;
-    top: 6px;
-}
-
-.carr_info2 {
-    background-color: white;
-    color: black;
-    border-radius: 20px;
-    border: none;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 3px 12px;
-}
-
-.carr_info2:hover{
-
-    outline: 2px solid rgb(245, 246, 247);
-    outline-offset: 2px;
-
-}
-
-.carousel.button1 {
-    position: relative;
-    bottom: -39px;
-    text-align: left;
-}
-
-.carousel.button2 {
-    position: relative;
-    bottom: -9px;
-    text-align: left;
-}
-
-.carousel.button3 {
-    position: relative;
-    bottom: 6px;
-    text-align: left;
-}
-
-.carousel.button4 {
-    position: relative;
-    bottom: -9px;
-    text-align: left;
-}
-
-.carousel.button5 {
-    position: relative;
-    bottom: -8px;
-    text-align: left;
-}
-
-
-.carousel.button6 {
-    position: relative;
-    bottom: 7px;
-    text-align: left;
-}
-
-.carousel.buttonX {
-    position: relative;
-    text-align: left;
-    top: 16px;
-}
-=======
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
-=======
->>>>>>> e32c8410d916728bf542caba43afdf52ed9a01e9
