@@ -15,7 +15,7 @@ Per lo sviluppo dell'attività sono stati utilizzati elementi di HTML5, CSS3 e B
 - <i>Navbar:</i> Renato Cau
 - <i>Footer:</i> Fernando Coeli
 - <i>Bottone generico:</i> Fernando Coeli
-- <i>Carrosello immagini (statico senza usare Bootstrap):</i> Badr Harchaoui
+- <i>Carosello immagini (statico senza usare Bootstrap):</i> Badr Harchaoui
 
 
 <b>Pagine a sviluppare</b>
